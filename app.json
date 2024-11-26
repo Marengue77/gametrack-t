@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "GameTrack T",
+    "slug": "gametrack-t",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.marengue77org.gametrackt"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.marengue77org.gametrackt"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "206f9e00-4efa-4cd1-9b33-1869c41d50d4"
+      }
+    },
+    "owner": "marengue77-org",
+    "updates": {
+      "url": "https://u.expo.dev/206f9e00-4efa-4cd1-9b33-1869c41d50d4"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
